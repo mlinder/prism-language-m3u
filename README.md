@@ -13,7 +13,6 @@ Load the language definition after Prism and define additional classes in your s
 Usage with a bundler:
 
 ```console
-# NPM
 npm install prism-language-m3u
 ```
 
@@ -26,7 +25,7 @@ Or the classic way:
 
 ```html
 <script src="prism.js"></script>
-<script src="prism-language-m3u.js"></script>
+<script src="prism-m3u.js"></script>
 ```
 
 Sample markup:
