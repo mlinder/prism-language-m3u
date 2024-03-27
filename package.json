@@ -1,0 +1,25 @@
+{
+  "name": "prism-language-m3u",
+  "version": "0.5.0",
+  "description": "M3U language definition for syntax highlighting with Prism",
+  "main": "prism-m3u.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlinder/prism-language-m3u.git"
+  },
+  "keywords": [
+    "prism",
+    "highlight",
+    "m3u",
+    "m3u8"
+  ],
+  "author": "Marcus Linder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlinder/prism-language-m3u/issues"
+  },
+  "homepage": "https://github.com/mlinder/prism-language-m3u#readme"
+}
