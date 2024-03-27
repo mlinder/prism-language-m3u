@@ -1,6 +1,6 @@
 {
   "name": "prism-language-m3u",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "M3U language definition for syntax highlighting with Prism",
   "main": "prism-m3u.js",
   "scripts": {
