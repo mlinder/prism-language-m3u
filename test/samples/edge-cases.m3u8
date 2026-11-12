@@ -1,0 +1,27 @@
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-TARGETDURATON:6
+#EXT-X-VENDOR-TAG:FOO=BAR,baz="qux",BANDWDTH=1
+#EXT-X-STREAM-INF:BANDWIDTH=1280000,RESOLUTION=416x234,CODECS="avc1.42e00a,mp4a.40.2",X-ASSET-URI="https://example.com/a?b=c",FOO=bar
+low/index.m3u8?token=a=b&c=d
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="Svenska \"SDH\"",FORCED=NO,URI=sub/index.m3u8
+#EXT-X-KEY:METHOD=NONE
+#EXT-X-START:TIME-OFFSET=-1.5,PRECISE=YES
+#EXT-X-BYTERANGE:1024@256000
+#EXT-X-MAP:URI="init.mp4",BYTERANGE="1024@0"
+#EXT-X-PROGRAM-DATE-TIME:2026-11-12T08:30:00Z
+#EXT-X-SESSION-KEY:
+#EXT-X-ENDLIST:
+#EXTINF:10
+segment%20one.ts
+#EXTINF:10.0,
+segment two %2F 100%.ts
+#EXTINF:-1 tvg-id="a" group-title="News, Sport" radio=false,Title, with a comma {$name}
+{$base}/live.m3u8
+# A comment with #EXT-X-KEY:METHOD=AES-128 and URI="x"
+#comment without a space
+#EXTVLCOPT:network-caching=1000
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-SKIP:SKIPPED-SEGMENTS=3,RECENTLY-REMOVED-DATERANGES="a	b"
+#EXTINF:4.000,Ünïcödé ✓ title
+https://example.com/path/to/file.ts?x=1#frag

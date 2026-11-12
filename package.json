@@ -1,10 +1,14 @@
 {
   "name": "prism-language-m3u",
   "version": "0.5.1",
-  "description": "M3U language definition for syntax highlighting with Prism",
+  "description": "Prism syntax highlighting for M3U and M3U8 playlists, including Extended M3U, IPTV and HLS",
   "main": "prism-m3u.js",
+  "files": [
+    "prism-m3u.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test/",
+    "export-prism-tests": "node test/export-prism-tests.mjs"
   },
   "repository": {
     "type": "git",
@@ -14,15 +18,23 @@
     "prism",
     "highlight",
     "m3u",
-    "m3u8"
+    "m3u8",
+    "hls",
+    "iptv",
+    "playlist"
   ],
-  "author": "Marcus Linder",
+  "author": "Marcus Linder <mlinder@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mlinder/prism-language-m3u/issues"
   },
   "homepage": "https://github.com/mlinder/prism-language-m3u#readme",
-  "dependencies": {
+  "peerDependencies": {
     "prismjs": "^1.29.0"
+  },
+  "devDependencies": {
+    "prismjs": "1.30.0",
+    "tree-sitter-m3u": "1.2.1",
+    "web-tree-sitter": "0.27.2"
   }
 }
