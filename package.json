@@ -1,6 +1,6 @@
 {
   "name": "prism-language-m3u",
-  "version": "0.5.1",
+  "version": "1.0.0",
   "description": "Prism syntax highlighting for M3U and M3U8 playlists, including Extended M3U, IPTV and HLS",
   "main": "prism-m3u.js",
   "files": [
